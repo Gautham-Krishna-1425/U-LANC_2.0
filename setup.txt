@@ -1,0 +1,19 @@
+./setup.bat
+.\venv\Scripts\activate
+python server.py 
+http://0.0.0.0:8080
+ngrok http 80
+
+
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+for:
+"PS C:\Users\LENOVO\Desktop\new\ULANC-main\ULANC-main> .\venv\Scripts\activate
+.\venv\Scripts\activate : File C:\Users\LENOVO\Desktop\new\ULANC-main\ULANC-main\venv\Scripts\Activate.ps1 cannot be 
+loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at      
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ .\venv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\LENOVO\Desktop\new\ULANC-main\ULANC-main>"
